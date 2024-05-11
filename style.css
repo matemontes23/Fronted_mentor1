@@ -1,0 +1,68 @@
+body{
+  background-color: rgba(4, 12, 49, 0.897);
+  font-family: "inter";
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color:rgb(54, 54, 104);
+  padding: .5rem;
+  border-radius: 1rem;
+  flex-direction: column;
+}
+
+.user__text {
+  padding: .2rem;
+}
+
+.user__title {
+  color: aliceblue;
+  font-weight: 300;
+}
+
+.user__desc {
+  color: darkgrey; 
+}
+
+.card__img {
+  max-width: 300px;
+  border-radius: .8rem;
+}
+
+.card__user {
+  padding: .4rem;
+  border-radius: 1rem;
+  display: flex;
+}
+
+.card__img2 {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+ .user__title2 {
+  display: flex;
+  color: gray;
+  font-weight: 300;
+  gap: 8px;
+ }
+
+ .user__title2 span{
+  color: white;
+
+ }
+
+
+
+
+
